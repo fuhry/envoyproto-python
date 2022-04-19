@@ -1,0 +1,21 @@
+[submodule "protobuf-libs/envoy"]
+	path = protobuf-libs/envoy
+	url = https://github.com/envoyproxy/data-plane-api.git
+[submodule "protobuf-libs/xds"]
+	path = protobuf-libs/xds
+	url = https://github.com/cncf/xds
+[submodule "protobuf-libs/protoc-gen-validate"]
+	path = protobuf-libs/protoc-gen-validate
+	url = https://github.com/envoyproxy/protoc-gen-validate.git
+[submodule "protobuf-libs/googleapis"]
+	path = protobuf-libs/googleapis
+	url = https://github.com/googleapis/googleapis.git
+[submodule "protobuf-libs/opencensus"]
+	path = protobuf-libs/opencensus
+	url = https://github.com/census-instrumentation/opencensus-proto.git
+[submodule "protobuf-libs/opentelemetry"]
+	path = protobuf-libs/opentelemetry
+	url = https://github.com/open-telemetry/opentelemetry-proto.git
+[submodule "protobuf-libs/prometheus-client-model"]
+	path = protobuf-libs/prometheus-client-model
+	url = https://github.com/prometheus/client_model.git

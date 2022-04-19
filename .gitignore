@@ -1,0 +1,13 @@
+/envoyproto/__init__.py
+/envoyproto/envoy/
+/envoyproto/contrib/
+/envoyproto/google/
+/envoyproto/io/
+/envoyproto/opencensus/
+/envoyproto/opentelemetry/
+/envoyproto/udpa/
+/envoyproto/validate/
+/envoyproto/xds/
+/build/
+/dist/
+*.egg-info
