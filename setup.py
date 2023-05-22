@@ -50,6 +50,7 @@ class ProtobufPyCommand(setuptools.Command):
             (r'^package ', 'package envoyproto.'),
             (r'\b(udpa|xds)\.', 'envoyproto.\\1.'),
             (r'\(validate\.(rules|required)\)', '(.envoyproto.validate.\\1)'),
+            (r'(\s+)\.envoy\.', '\\1.envoyproto.envoy.'),
             (r'^import (public )?"(envoy|contrib|udpa|xds|validate|google/api|google/logging|google/longrunning|google/rpc|opentelemetry|opencensus|io/prometheus/client)/', 'import \\1"envoyproto/\\2/'),
             (r'([^\.])google\.protobuf\.', '\\1.google.protobuf.'),
         ]
