@@ -19,3 +19,6 @@
 [submodule "protobuf-libs/prometheus-client-model"]
 	path = protobuf-libs/prometheus-client-model
 	url = https://github.com/prometheus/client_model.git
+[submodule "protobuf-libs/cel"]
+	path = protobuf-libs/cel
+	url = https://github.com/google/cel-spec.git
