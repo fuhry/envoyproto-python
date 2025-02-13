@@ -84,6 +84,7 @@ def compile_protos() -> None:
         protoc_cmd = [
             '/usr/bin/protoc',
             f'--python_out={basedir}',
+            f'--pyi_out={basedir}',
             f'-I{basedir}',
         ] + [
             proto_file
